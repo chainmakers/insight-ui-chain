@@ -1,7 +1,7 @@
 'use strict';
 
 var testnet = false;
-var netSymbol = testnet ? 'GLXT' : 'GLXT';
+var netSymbol = testnet ? 'CHAIN' : 'CHAIN';
 
 var defaultLanguage = localStorage.getItem('insight-language') || 'en';
 var defaultCurrency = localStorage.getItem('insight-currency') || netSymbol;
